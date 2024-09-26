@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin:0 ;
+}
+html{
+    font-family: "Popin",sans-serif;
+    text-transform: capitalize;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    top: -60px;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background:#c7c4d5;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 390px;
+    background-color: #9c8ce2d7;
+    border-radius: 20px;
+    border: 1px solid rgb(215, 205, 205);
+    margin: 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+label{
+    padding-left: 90px;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    top:-20px;
+    left: 40px;
+    color: #f4f4f4;
+
+}
+
+#dateofbirth{
+    position: relative;
+    top: -20px;
+    left: 60px;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 20px;
+    border: 0.5px solid rgba(85, 81, 81, 0.466);
+    background:#dcd7d770;
+    width: 300px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.btn{
+    position: relative;
+    top: -30px;
+    left: 100px;
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background:#3620b3ad;
+    font-weight: bold;
+    cursor: pointer;
+    width: 110px;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#result{
+    font-weight:bold;
+    font-size: 15px;
+    position:absolute;
+    top: 320px;
+    left: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    border-radius: 5px;
+}
